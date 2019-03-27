@@ -1,0 +1,80 @@
+-- Part 2.1 schema.sql
+--
+-- Submitted by: Fareed Faisal, 1710393
+-- 
+-- Schema Definition
+
+CREATE TABLE 
+  COACH 
+(
+  name VARCHAR(15) NOT NULL,
+  surname VARCHAR(20) NOT NULL,
+  DoB DATE NOT NULL,
+  idCoach CHAR(10) PRIMARY KEY,
+  gender CHAR(1) NOT NULL,
+  phone CHAR(11) NOT NULL,
+  dailySalary DECIMAL(6,2) NOT NULL
+);
+
+CREATE TABLE 
+  COACH_IN_SHOW 
+(
+  idCoach CHAR(10) NOT NULL,
+  idShow CHAR(10) NOT NULL,
+  PRIMARY KEY(idCoach, idShow),
+  FOREIGN KEY(idCoach)
+    REFERENCES COACH(idCoach)
+    ON UPDATE CASCADE,
+  FOREIGN KEY(idShow)
+    REFERENCES TVSHOW(idShow)
+    ON UPDATE CASCADE
+);
+
+CREATE TABLE 
+  CONTENDER 
+(
+  idContender CHAR(10) PRIMARY KEY,
+  stageName VARCHAR(20) NOT NULL,
+  idCoach CHAR(10) NOT NULL,
+  FOREIGN KEY(idCoach) REFERENCES COACH(idCoach)
+  ON UPDATE CASCADE,
+  type VARCHAR(11) CHECK (type IN ('GROUP','INDIVIDUAL'))
+);
+
+CREATE TABLE 
+  CONTENDER_IN_SHOW 
+(
+  idContender CHAR(10) NOT NULL,
+  idShow CHAR(10) NOT NULL,
+  PRIMARY KEY(idContender, idShow),
+  FOREIGN KEY(idContender) REFERENCES CONTENDER(idContender)
+  ON UPDATE CASCADE,
+  FOREIGN KEY(idShow)
+    REFERENCES TVSHOW(idShow)
+    ON UPDATE CASCADE
+);
+
+CREATE TABLE 
+  PARTICIPANT 
+(
+  name VARCHAR(15) NOT NULL,
+  surname VARCHAR(20) NOT NULL,
+  DoB DATE NOT NULL,
+  idParticipant CHAR(10) PRIMARY KEY,
+  gender CHAR(1) NOT NULL,
+  phone CHAR(11) NOT NULL,
+  dailySalary DECIMAL(6,2) NOT NULL,
+  idContender CHAR(10) NOT NULL,
+  FOREIGN KEY(idContender)
+    REFERENCES CONTENDER(idContender)
+    ON UPDATE CASCADE
+);
+
+CREATE TABLE 
+  TVSHOW 
+(
+  startTime TIME NOT NULL,
+  `date` DATE NOT NULL,
+  idShow CHAR(10) PRIMARY KEY,
+  endTime TIME NOT NULL
+);
