@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Class\ Item\ -\ an\ item\ in\ an\ adventure\ game.\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "Kino\ Der\ Toten"\ application.\ \r\n\ "Kino\ Der\ Toten"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ An\ "Item"\ represents\ one\ item\ in\ the\ scenery\ of\ the\ game.\ \ It\ is\ \r\n\ It\ is\ placed\ in\ a\ room.\ \ For\ each\ item,\ there\ is\ a\ cost\ to\ pick\ up\ \r\n\ the\ item.\r\n\r\n\ @author\ Fareed\ Faisal\r\n\ @version\ 2.0\r\n
+comment1.params=itemDescription\ itemCost
+comment1.target=Item(java.lang.String,\ int)
+comment1.text=\r\n\ Create\ an\ item\ described\ "itemDescription".\ It\ has\ a\ cost.\r\n\ "itemDescription"\ is\ something\ like\ "Olympia"\ or\ "M14".\r\n\ @param\ itemdDescription\ The\ item's\ description.\r\n\ @param\ itemCost\ The\ item's\ cost.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment2.text=\r\n\ get\ the\ description\ of\ the\ item.\r\n\r\n\ @return\ description\ the\ item\ description.\r\n
+comment3.params=
+comment3.target=int\ getCost()
+comment3.text=\r\n\ get\ the\ cost\ of\ the\ item.\r\n\r\n\ @return\ cost\ the\ item\ cost.\r\n
+numComments=4

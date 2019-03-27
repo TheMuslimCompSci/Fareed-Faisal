@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\r\n\ Class\ Character\ -\ a\ character\ in\ an\ adventure\ game.\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "Kino\ Der\ Toten"\ application.\ \r\n\ "Kino\ Der\ Toten"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ A\ "Character"\ represents\ one\ character\ in\ the\ scenery\ of\ the\ game.\ \ The\ \r\n\ character\ is\ placed\ in\ a\ room.\ \ For\ each\ command\ entered\ by\ the\ user,\ \r\n\ the\ character\ moves\ by\ itself\ to\ the\ neighboring\ room.\r\n\r\n\ @author\ Fareed\ Faisal\r\n\ @version\ 2.0\r\n
+comment1.params=characterName\ requiredPoints
+comment1.target=Character(java.lang.String,\ int)
+comment1.text=\r\n\ Create\ a\ character\ named\ "characterName".\r\n\ "characterName"\ is\ something\ like\ "Monkey\ Bomb"\ or\ "Mystery\ Box".\r\n\ @param\ characterName\ The\ character's\ name.\r\n
+comment2.params=
+comment2.target=Room\ getRoom()
+comment2.text=\r\n\ get\ the\ current\ room\ the\ character\ is\ in.\r\n\r\n\ @return\ currentRoom\ the\ room\ the\ character\ is\ in.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCharacterName()
+comment3.text=\r\n\ get\ the\ name\ of\ the\ character.\r\n\r\n\ @return\ name\ the\ character\ name.\r\n
+comment4.params=newRoom
+comment4.target=void\ setRoom(Room)
+comment4.text=\r\n\ move\ the\ character\ to\ another\ room.\r\n\r\n\ @param\ newRoom\ the\ new\ room\ the\ character\ is\ moved\ to.\r\n
+comment5.params=
+comment5.target=int\ getRequiredPoints()
+numComments=6

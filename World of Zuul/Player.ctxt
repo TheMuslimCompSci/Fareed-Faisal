@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Class\ Player\ -\ the\ player\ in\ an\ adventure\ game.\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "Kino\ Der\ Toten"\ application.\ \r\n\ "Kino\ Der\ Toten"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ An\ "Player"\ represents\ the\ player\ playing\ the\ game.\r\n\r\n\ @author\ Fareed\ Faisal\r\n\ @version\ 2.0\r\n
+comment1.params=playerName
+comment1.target=Player(java.lang.String)
+comment1.text=\r\n\ Create\ a\ player\ named\ "playerName".\ The\ player\r\n\ has\ a\ limited\ number\ of\ commands\ and\ points\ to\ complete\r\n\ the\ game.\ "playerName"\ is\ something\ like\ "Player1".\r\n\ @param\ playerName\ The\ player's\ name.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ get\ the\ name\ of\ the\ player.\r\n\r\n\ @return\ name\ the\ player\ name.\r\n
+comment3.params=
+comment3.target=int\ getPoints()
+comment3.text=\r\n\ get\ the\ points\ the\ player\ has.\r\n\r\n\ @return\ points\ the\ player's\ points.\r\n
+comment4.params=
+comment4.target=Room\ getCurrentRoom()
+comment4.text=\r\n\ get\ the\ room\ the\ player\ is\ in.\r\n\r\n\ @return\ currentRoom\ the\ current\ room\ the\ player\ is\ in.\r\n
+comment5.params=
+comment5.target=int\ getNumberOfCommandsLeft()
+comment5.text=\r\n\ get\ the\ number\ of\ commands\ the\ player\ has\ left.\r\n\r\n\ @return\ numberOfCommandsLeft\ the\ player's\ remaining\ commands.\r\n
+comment6.params=
+comment6.target=void\ decrementNumberOfCommandsLeft()
+comment6.text=\r\n\ decrement\ the\ number\ of\ commands\ the\ player\ has\ left.\r\n
+comment7.params=room
+comment7.target=void\ enterRoom(Room)
+comment7.text=\r\n\ Moves\ the\ player\ in\ a\ new\ room\r\n\ and\ decrements\ the\ number\ of\ commands\r\n\ remaining\ by\ one.\r\n\r\n\ @param\ \ room\ \ the\ room\ the\ player\ moves\ to.\r\n
+numComments=8
