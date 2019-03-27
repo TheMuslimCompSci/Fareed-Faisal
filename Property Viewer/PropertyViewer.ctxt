@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PropertyViewer
+comment0.text=\r\n\ This\ project\ implements\ a\ simple\ application.\ Properties\ from\ a\ fixed\r\n\ file\ can\ be\ displayed.\ \r\n\ \ \r\n\ \r\n\ @author\ Michael\ K\u00F6lling\ and\ Josh\ Murphy\r\n\ @version\ 1.0\r\n\ \r\n\ \r\n\ PropertyViewer\ is\ a\ class\ that\ implements\ the\ logic\ of\ the\ property\ viewer\r\n\ \r\n\ \r\n\ This\ class\ is\ instantiated\ to\ start\ and\ run\ the\ application\r\n
+comment1.params=
+comment1.target=PropertyViewer()
+comment1.text=\r\n\ Create\ a\ PropertyViewer\ and\ display\ its\ GUI\ on\ screen.\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ PropertyViewer\r\n
+comment2.params=
+comment2.target=void\ nextProperty()
+comment2.text=\r\n\ Displays\ the\ next\ property\ in\ the\ portfolio\ and\ it's\ data\ when\ the\ Next\ button\ is\ pressed\r\n
+comment3.params=
+comment3.target=void\ previousProperty()
+comment3.text=\r\n\ Displays\ the\ previous\ property\ in\ the\ portfolio\ and\ it's\ data\ when\ the\ Previous\ button\ is\ pressed\r\n
+comment4.params=
+comment4.target=void\ toggleFavourite()
+comment4.text=\r\n\ Updates\ and\ shows\ the\ isFavourite\ \uFB01eld\ of\ a\ property\ when\ the\ Toggle\ Favourite\ button\ is\ pressed\r\n
+comment5.params=
+comment5.target=void\ viewMap()
+comment5.text=\r\n\ This\ method\ opens\ the\ system's\ default\ internet\ browser\r\n\ The\ Google\ maps\ page\ should\ show\ the\ current\ properties\ location\ on\ the\ map.\r\n
+comment6.params=
+comment6.target=int\ getNumberOfPropertiesViewed()
+comment6.text=\r\n\ Returns\ the\ number\ of\ properties\ that\ have\ been\ viewed\ so\ far\ since\ the\ application\ was\ started.\r\n
+comment7.params=
+comment7.target=int\ averagePropertyPrice()
+comment7.text=\r\n\ Returns\ the\ average\ price\ of\ the\ properties\ viewed\ so\ far\ since\ the\ application\ was\ started.\ \r\n
+numComments=8
