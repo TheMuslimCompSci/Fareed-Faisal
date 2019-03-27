@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SimulatorMain
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ Predator/Prey\ simulator\ application.\ \r\n\ \r\n\ This\ class\ defines\ a\ main\ method\ within\ it\ to\ run\ the\ simulation.\r\n\r\n\ @author\ Fareed\ Faisal\ and\ Salim\ Dridi\r\n\ @version\ 22.02.19\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ The\ starting\ point\ for\ the\ simulation.\r\n\ @param\ args\ Program\ arguments.\r\n
+numComments=2
